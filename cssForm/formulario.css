@@ -1,0 +1,46 @@
+
+body {
+    background-image: url(/images2/pexels-photoo.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 100vh;
+}
+
+
+
+#form--container {
+    background-color: #1e2531; 
+    opacity: 0.9;
+   
+}
+
+label {
+    cursor: pointer;
+}
+
+
+
+
+/* INPUTS JS VALIDATION*/
+
+.error {
+    border: 1px solid red;
+}
+
+.success {
+    border: 1px solid green;
+}
+
+.hidden {
+    display: none;
+
+}
+
+.error_active {
+    display: block;
+}
+
+.input-error {
+    border: 1px solid red;
+}

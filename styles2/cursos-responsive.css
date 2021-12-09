@@ -1,0 +1,217 @@
+@media (max-width: 850px) {
+
+/* header */
+    
+    
+    
+.header {
+    display: table;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.header label {
+    display: block;
+    
+}
+
+.header a img {
+    height: 150px;
+}
+
+.ul {
+    text-align: center;
+    display: block;
+    height: 100vh;
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+    background: rgba(49, 45, 45, 0.9);
+    margin-left: -100%;
+    transition: all 0.5s;
+    top: 0;
+    position: fixed;
+    padding: 15% 0 0 0;
+    
+}
+
+#close {
+    display: block;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    text-decoration: none;
+}
+
+.ul li {
+    margin: 20px;
+    padding: 30px;
+   
+}
+
+
+        /* FOOTER */
+
+        .td2  {
+            display: none;
+            
+        }
+
+
+
+
+
+#btnMenu:checked ~ .ul {
+    margin-left: 0;
+}
+
+
+
+.ul .conteiner-submenu {
+    width: 100%;
+    margin: 0px;
+    padding: 2px;
+
+}
+
+
+.submenu-btn {
+    position: relative;
+}
+
+.ul li i {
+    display: none;
+}
+
+.submenu {
+    display: none;
+}
+
+.mostrar {
+    transform: translateX(0);
+}
+
+.menu img {
+    height: 80px;
+    float: center;
+} 
+
+.img_sobre {
+    display: block;
+    float: none;
+    padding: 0 20px;
+}
+
+.img_sobre img {
+    width: 100%;
+    height:500px;
+    margin: auto;
+}
+
+
+.sobre_info {
+    float: none;
+    display: block;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.diamond {
+    height: 20px;
+    width: 20px;;
+}
+
+.line{
+    height: 25px;
+}
+
+
+.td2 {
+    display: none;
+}
+
+
+
+}
+
+@media (max-width: 874px) {
+
+    .td2 {
+        display: none;
+    }
+    
+}
+
+/* CONTEINER CURSOS */
+
+
+@media (max-width: 930px) {
+
+
+    .curso_pelu__ul, .curso_maqui__ul, .curso_mani__ul, .curso_barbe__ul, .curso_podo__ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .curso_mani__ul li:first-child {
+        order: 2;
+    }
+
+    .curso_pelu__ul li, .curso_maqui__ul li, .curso_mani__ul li, .curso_barbe__ul li, .curso_podo__ul li {
+        width: 100%;
+    }
+
+    
+    .curso_podo__ul li:first-child {
+        order: 2;
+    }
+
+    .curso_pelu__li2 {
+        padding: 30px;
+    }
+
+    .curso_maqui__li2 {
+        padding: 30px;
+    }
+
+        
+ 
+    
+    
+}
+
+
+
+
+
+@media (max-width: 1080px) {
+     .curso_pelu__li2 h2, .curso_pelu__li2 p  {
+        font-size: 20px;
+    
+    }
+
+    .curso_pelu__li2  {
+        line-height: 15px;
+       
+    }
+
+    .curso_pelu__li2 h1 {
+        font-size: 25px;
+    }
+
+     .curso_maqui__li2 h2, .curso_maqui__li2 p {
+        font-size: 20px;
+    }
+
+    .curso_maqui__li2 h1 {
+        font-size: 25px;
+    }
+
+    .curso_maqui__li2 {
+        line-height: 15px;
+
+    }
+}
+

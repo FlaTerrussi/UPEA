@@ -1,0 +1,161 @@
+
+<!doctype html>
+<html>
+  <head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    <link href="/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/cssForm/estilo.css" rel="stylesheet">
+    <script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/cssForm/formulario.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <script src="/scripts/formValidation.js"></script>
+    <script src="/scripts/formImg.js"></script>
+
+
+
+
+    <title>INSCRIBE TU ESCUELA</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-9 col-md-9 rounded my-5" id="form--container" >
+          <img src="/images2/logoupeaREAL.png" class="mx-auto d-block opacity-100 my-3"  height= "220px" alt="">
+          <h2 class="text-center opacity-100 mb-4" style="color:#8d765d"> INSCRIBE TU ESCUELA </h2>
+
+          <form action="https://getform.io/f/7ae01faa-ad2a-44a8-a4a6-24942ee666f6" method="POST" id="form">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-5 col-md-5 mb-4" id="input_name">
+              <label for="nombre" class="form-label fw-lighter" style="color:white">Nombre:</label>
+              <input type="text" name="name" id="nombre"  class="form-control" required>
+              <p class="text-danger hidden " id="errorName">El nombre solo puede contener letras. </p>
+            </div>
+        
+
+            <div class="col-lg-5 col-md-5 mb-4" id="input_lastname">
+              <label for="lastname" class="form-label fw-lighter" style="color:white">Apellido:</label>
+              <input type="text" name="lastname" id="lastname"  class="form-control" required>
+              <p class="text-danger hidden" id="errorLastname">El apellido solo puede contener letras. </p>
+            </div>
+          </div>
+
+          <div class="row  d-flex justify-content-center">
+            <div class="col-lg-10 col-md-10 mb-4" id="input_school">
+              <label for="schoolname" class="form-label fw-lighter" style="color:white">Nombre de tu escuela:</label>
+              <input type="text" name="schoolname" id="schoolname"  class="form-control" required>
+            </div>
+          </div>
+
+          <div class="row  d-flex justify-content-center">
+            <div class="col-lg-10 col-md-10 mb-4" >
+              <label for="adress" class="form-label fw-lighter" style="color:white">Dirección:</label>
+              <input type="text" name="adress" id="adress" class="form-control" required>
+            </div>
+          </div>
+
+          <div class="row  d-flex justify-content-center">
+            <div class="col-lg-10 col-md-10 mb-4">
+              <label for="adress" class="form-label fw-lighter" style="color:white">Dirección Línea 2:</label>
+              <input type="text" name="adress" id="adress"  class="form-control" required>
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-5 col-md-5 mb-4">
+              <label for="city" class="form-label fw-lighter" style="color:white">Ciudad:</label>
+              <input type="text" name="city" id="city"  class="form-control" required>
+            </div>
+            
+            <div class="col-lg-5 col-md-5 mb-4">
+              <label for="state" class="form-label fw-lighter" style="color:white">Estado/Provincia:</label>
+              <input type="text" name="state" id="state" class="form-control" required>
+            </div>
+          </div>
+
+          <div class="row  d-flex justify-content-center">
+            <div class="col-lg-10 col-md-10 mb-4">
+              <label for="code" class="form-label fw-lighter" style="color:white">Código postal:</label>
+              <input type="text" name="code" id="code"  class="form-control" required>
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-center">
+
+            <div class="col-lg-10 col-md-10 mb-2" style="color:white">Teléfono celular:</div>
+
+            <div class="col-lg-3 col-md-3 mb-4">
+              <input type="tel" name="areatel" id="areatel"   placeholder="Código de area" class="form-control" required>
+            </div>
+            
+            <div class="col-lg-7 col-md-7 mb-4">
+              <input type="tel" name="tel" id="tel" class="form-control" placeholder="Número de télefono" required>
+              <p class="text-danger hidden" id="errorTel">El télefono solo puede contener números y un máximo de 14 digitos. </p>
+            </div>
+          </div>
+
+          <div class="row  d-flex justify-content-center">
+            <div class="col-lg-10 col-md-10 mb-4">
+              <label for="email" class="form-label fw-lighter" style="color:white">E-mail:</label>
+              <input type="email" name="email" id="email"  class="form-control" required>
+              <p class="text-danger hidden" id="errorEmail">El email solo puede contener letras, números, puntos, guiones y guión bajo. </p>
+            </div>
+          </div>
+
+          <div class="row  d-flex justify-content-center">
+            <div class="col-lg-10 col-md-10 mb-4">
+              <label for="formFile" class="form-label fw-lighter" style="color:white">Subí logo de tu escuela</label>
+              <input class="form-control" name="logo" type="file" id="formFile" required>
+            </div>
+          </div>
+
+
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-10 col-md-10 mb-4">
+              <input class="btn btn-lg btn-outline-secondary "  type="submit" value="Enviar">
+            </div>
+          </div>
+
+      
+
+          <hr class="mb-5" style="color:white" />
+
+        </form>
+
+      
+
+
+        </div>
+    </div>
+
+  
+        
+        
+
+       
+
+
+       
+
+          
+       
+    
+
+      
+      </div>
+
+
+
+
+
+      
+    </div>
+    
+
+  </body>
+</html>

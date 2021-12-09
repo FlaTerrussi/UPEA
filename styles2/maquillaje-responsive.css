@@ -1,0 +1,201 @@
+@media  (max-width: 850px) {
+
+
+    /* header */
+    
+    
+    
+        .header {
+            display: table;
+            width: 100%;
+            height: 100px;
+            position: relative;
+        }
+    
+        .header label {
+            display: block;
+            
+        }
+    
+        .header a img {
+            height: 150px;
+        }
+    
+        .ul {
+            text-align: center;
+            display: block;
+            height: 100vh;
+            position: absolute;
+            z-index: 200;
+            width: 100%;
+            background: rgba(49, 45, 45, 0.9);
+            margin-left: -100%;
+            transition: all 0.5s;
+            top: 0;
+            position: fixed;
+            padding: 15% 0 0 0;
+            
+        }
+    
+        #close {
+            display: block;
+            color: white;
+            position: absolute;
+            right: 30px;
+            top: 20px;
+            text-decoration: none;
+        }
+    
+        .ul li {
+            margin: 20px;
+            padding: 30px;
+           
+        }
+    
+    
+    
+    
+        #btnMenu:checked ~ .ul {
+            margin-left: 0;
+        }
+    
+        
+    
+        .ul .conteiner-submenu {
+            width: 100%;
+            margin: 0px;
+            padding: 2px;
+        
+        }
+    
+    
+        .submenu-btn {
+            position: relative;
+        }
+    
+        .ul li i {
+            display: none;
+        }
+    
+        .submenu {
+            display: none;
+        }
+    
+        .mostrar {
+            transform: translateX(0);
+        }
+    
+        
+        
+        
+    
+        .menu img {
+            height: 80px;
+            float: center;
+        } 
+
+
+        /* IMAGE */
+
+        .pelu_img img {
+            height: 250px;
+        }
+
+
+        /* CONTENIDO */
+
+        .lines::after, .lines::before {
+            width: 30%;
+        }
+        
+
+        .plan_estudio_peinado {
+            display: block;
+            text-align: center;
+            
+        }
+
+        .contenido_li1, .contenido_li2 {
+            width: 100%;
+            padding: 0;
+        }
+
+        .form {
+            width: 100%;
+        }
+
+
+
+
+        /* FOOTER */
+
+        .td2  {
+            display: none;
+            
+        }
+
+
+
+
+
+    }
+
+
+    @media (max-width: 874px) {
+
+        .td2 {
+            display: none;
+        }
+        
+    }
+
+
+
+@media (max-width: 660px) {
+    .lines::after, .lines::before  {
+        width: 10px;
+       
+    }
+        
+    }
+
+@media (max-width: 820px) {
+
+        
+    .title_conteiner h1 {
+        font-size: 25px;
+    }
+      
+   
+    
+    .lines {
+        height: 35px;
+    }
+      
+  }
+
+    
+    
+@media (max-width: 1080px) {
+      .lines::after, .lines::before {
+          width: 36%;
+      }
+      
+  }
+
+  @media (max-width: 610px) {
+
+    .lines::after, .lines::before {
+    width: 25%;
+    top: 25%;
+
+    }
+
+   
+
+    .pelu_img img {
+        height: 200px;
+        width: 80%;
+    }
+
+}

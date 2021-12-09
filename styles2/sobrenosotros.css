@@ -1,0 +1,523 @@
+/* HEADER */
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.header {
+	
+	width: 100%;
+	background-color: #0d0d0d;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: table;
+	
+	
+}
+
+.header-responsive {
+	display: none;
+	
+}
+
+.menu {
+	display: none;
+
+}
+
+.header img {
+	height: 150px;
+	margin: 10px;
+}
+
+.ul {
+	list-style: none;
+	margin: auto;
+	padding-bottom: 3px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#close {
+	display: none;
+}
+
+.ul li {
+	
+	padding: 0;
+	margin: 10px 20px 5px 20px;
+}
+
+.ul .conteiner-submenu {
+	width: 150px;
+	margin: 10px 0 5px 0;
+
+}
+
+
+.ul a {
+	text-decoration: none;
+	color: #f2edee;
+	font-size: 15px;
+	padding: 0;
+	cursor: pointer;
+	
+}
+
+
+
+
+
+
+.ul a:hover:not(.active) {
+	
+	color: #DBBD9C ;
+
+}
+
+
+
+.conteiner-submenu {
+	position: relative;
+}
+
+
+.submenu {
+	background: rgba(49, 45, 45, 0.9);
+	opacity: 0;
+    padding: 5px 0;
+    margin: 0;
+    visibility: hidden;
+	overflow: visible;
+    transition: all 0.3s;
+	position: absolute;
+	top: 25px;
+	z-index: 1000;
+	list-style-type: none;
+}
+
+.conteiner-submenu:hover .submenu {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+/* Header Responsive */
+
+#btnMenu {
+	display: none;
+}
+	
+
+
+/* SLIDER */
+
+.conteiner {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;    
+    
+}
+
+.title_conteiner {
+    padding: 30px 40px; 
+}
+
+.lines {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    text-align: center;
+}
+
+.lines::after, .lines::before  {
+    content:'';
+    position: absolute;
+    height: 1px;
+    background: #d4cdc5;
+    margin: auto;
+	width: 40%;
+    top: 40%;
+}
+
+.lines::after {
+	left: 0;
+}
+
+.lines::before {
+	right: 0;
+}
+
+.lines h1 {
+    font-family: Minion Variable Concept;
+    font-weight: lighter;
+	font-size: 40px;
+}
+
+
+.img_alumnos {
+	padding: 30px 0;
+}
+
+.img_alumnos img {
+	height: 650px;	
+	width: 70%;
+}
+
+.info_nosotros {
+	padding: 20px 20px;
+}
+
+.info_nosotros p {
+	font-size: 19px;
+	line-height: 40px;
+	font-weight: bold;
+	word-spacing: 2px;
+}
+
+
+.porque_estudiar {
+	line-height: 50px;
+	width: 100%;
+}
+
+.porque_estudiar h1 {
+	text-align: center;
+	padding: 40px 0;
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+	color: #8d765d;
+}
+
+
+.porque_list {
+	padding-left: 20%;
+	list-style: none;
+	font-size: 25px;
+	line-height: 50px;
+}
+
+.porque_list li {
+	margin: 30px 0;
+	font-weight: bold;
+}
+
+.far {
+	color: #8d765d;
+}
+
+
+
+
+.sep1 {
+	padding: 70px 100px;
+	width: 100%;
+	margin: auto;
+	justify-content: center;
+	
+}
+
+.line1 {
+	height: 1px;
+	background: #d4cdc5;
+	margin: auto;
+	width: 50%;
+}
+
+.normas {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding-top: 80px;
+}
+
+.normas a {
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid #d4cdc5;
+	text-decoration: none;
+	padding: 8px;
+	color: black;
+	
+
+}
+
+.normas a:hover {
+	background: rgb(43, 41, 41);
+	color: white;
+
+}
+
+
+/* APRENDER EN UPEA */
+
+.estilista {
+	width: 100%;
+	text-align: center;
+}
+
+.estilista h1 {
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+}
+
+.estilista h2 {
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+
+}
+
+.estilista p {
+	padding: 10px 30px;
+	font-size: 20px;
+	line-height: 200%;
+	font-weight: bold;
+}
+
+/* ESCUELAS ADHERIDAS */
+
+.escuelas {
+	width: 100%;
+	margin: auto;
+	
+}
+
+.escuelas h1 {
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #7B6A58;
+	text-align: center;
+	padding-bottom: 40px;
+	
+}
+
+
+
+.alma {
+	display: inline-flex;
+	width: 100%;
+	height: 300px;
+}
+
+
+
+.alma_info {
+	width: 100%;
+	
+}
+
+.alma_info h2 {
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #7B6A58;
+	text-align: center;
+
+}
+
+.alma_info p {
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.alma_img {
+	width: 100%;
+	text-align: center;
+	
+}
+
+.alma_img img {
+	height: 200px;
+	border-radius: 50%;
+
+}
+
+.adheri {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding: 40px 0;
+}
+
+.adheri a {
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid #d4cdc5;
+	text-decoration: none;
+	padding: 8px;
+	color: black;
+}
+
+.adheri a:hover {
+	background: rgb(43, 41, 41);
+	color: white;
+}
+
+
+
+
+
+/* TRABAJO DE ALUMNOS */
+
+.trabajo_alumnos {
+	width: 100%;
+	margin: 20px auto auto auto;
+	background-color: #D7D7D9;
+	padding: 20px 30px;
+}
+
+.trabajo_alumnos h2 {
+	text-align: center;
+	font-weight: lighter;
+	font-family: Minion Variable Concept;
+	padding-top: 0;
+}
+
+.trabajo_img {
+	display: flex;
+	list-style: none;
+	margin: auto;
+	padding: 0 30px;
+}
+
+.trabajo_img li{
+	margin: 5px;
+	border: 1px solid white;
+	padding: 2px;
+	height: 300px;
+	width: 350px;
+	
+}
+
+.trabajo_img li img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+	background: #0d0d0d;
+	width: 100%;
+	height: 220px;
+	justify-content: center;
+	padding-top: 10px;
+	
+}
+
+
+.td {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	list-style: none;
+	padding: 0;
+	justify-content: center;
+}
+
+.td1 {
+	margin: 10px 30px 0 30px;
+	text-align: center;
+	line-height: 200%;
+	padding: 0;
+	height: 200px;
+	width: 300px;
+}
+
+.td1 a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+.td1 a:hover {
+	color: pink;
+}
+
+
+.td2{
+	text-align: center;
+	display: block;
+	line-height: 200%;
+	margin: 0 30px;
+	padding: 0;
+	width: 400px;
+}
+
+.td2 img {
+	height: 100px;
+}
+
+.td2 p {
+	font-size: 15px;
+	color: white;
+	
+}
+
+
+.td3 {
+	text-align: center;
+	line-height: 200%;
+	padding: 0;
+	width: 300px;
+	margin: 10px 30px;
+
+}
+
+.td3 a {
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+.td3 a:hover {
+	color: pink;
+}
+
+.redes {
+	border-top: 1px solid  #d3d8bf;
+	text-align: center;
+	display: block;
+	background: black;
+	padding: 6px 0 6px 0;
+	height: 40px;
+}
+
+.redes a i{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin: 0 5px;
+}
+
+.redes a i:hover {
+	color: pink;
+}
+
+
+
+
+
+
+

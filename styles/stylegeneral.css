@@ -1,0 +1,191 @@
+
+
+.galery {
+	
+	width: 100%;
+	margin: auto;
+	list-style-type: none;
+	padding: 20px;
+	box-sizing: border-box;
+	
+	display: flex;
+	float: left;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+	
+	}
+	
+.galery li {
+	margin: 5px;
+	
+}
+
+
+.galery img {
+	width: 280px;
+	height: 230px;
+	
+	
+}
+
+/* Estilos del modal */
+
+
+
+.modal{
+	display: none;
+	
+	
+	
+}
+
+.modal:target {
+	
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	
+}
+
+.imagen  {
+	margin-top: 40px;
+	width: 100%;
+	height: 85%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.imagen a {
+	
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	margin: 0px 10px;
+	
+}
+
+.imagen img {
+	width: 500px;
+	height: 90%;
+	max-width: 100%;
+	border: 6px solid white;
+	box-sizing: border-box; 
+
+	
+}
+
+.imagen a:nth-child(2) {
+	margin: 0px; 
+	height: 100%;
+	flex-shrink: 2;
+	
+}
+
+.cerrar {
+	
+	display: block;
+	background-color: white;
+	color: black;
+	margin: auto;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	padding; 5px;
+	border-radius: 50%;
+	line-height: 25px;
+	
+	
+}
+
+.inner-img {
+	
+	width: 100%;
+	padding: 20px;
+	list-style: none;
+	justify-content: center;
+	display: flex;
+	box-sizing: border-box;
+	margin: auto;
+	position: relative;
+		
+}
+
+
+.inner-img li {
+	margin: 5px;
+	
+}
+
+.inner-img img  {
+	width: 400px;
+	height: 270px;
+	
+	
+}
+ 
+
+ 
+ 
+ 
+ 
+.active {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding-right: 20px;
+	font-weight: normal;
+	
+}
+
+.footer {
+	
+	height: 60px;
+	clear: left;
+	width: 100%;
+	left:0;
+	bottom:0;
+	background-color: #0D0000;
+	color: white;
+	text-align: center;
+	
+	
+
+}
+
+.galery-link {
+	
+	border: 2px solid #8C564A;
+	padding: 12px;
+	margin-top: 30px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.9em;
+	text-decoration: none;
+	color: black;
+    
+	
+	
+	}
+
+.galery-link:hover {
+	color: #caba9c;
+	border-color: black;
+}	
+
+
+	
+
+
+

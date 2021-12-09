@@ -1,0 +1,237 @@
+
+@media (max-width: 953px) {
+
+
+
+.trabajo_alumnos {
+    padding: 0;
+}
+
+.trabajo_alumnos h2 {
+    padding-top: 20px;
+}
+
+.trabajo_img {
+    padding: 0;
+}
+
+.trabajo_img li {
+    height: 250px;
+
+}
+
+.td2 {
+    display: none;
+}
+
+
+.img_alumnos img {
+    height: 550px;
+}
+ 
+
+.alma_info p {
+    font-size: 15px;
+}
+
+
+
+
+
+}
+
+
+
+
+@media  (max-width: 850px) {
+
+
+    /* header */
+    
+    
+    
+        .header {
+            display: table;
+            width: 100%;
+            height: 100px;
+            position: relative;
+        }
+    
+        .header label {
+            display: block;
+            
+        }
+    
+        .header a img {
+            height: 150px;
+        }
+    
+        .ul {
+            text-align: center;
+            display: block;
+            height: 100vh;
+            position: absolute;
+            z-index: 200;
+            width: 100%;
+            background: rgba(49, 45, 45, 0.9);
+            margin-left: -100%;
+            transition: all 0.5s;
+            top: 0;
+            position: fixed;
+            padding: 15% 0 0 0;
+            
+        }
+    
+        #close {
+            display: block;
+            color: white;
+            position: absolute;
+            right: 30px;
+            top: 20px;
+            text-decoration: none;
+        }
+    
+        .ul li {
+            margin: 20px;
+            padding: 30px;
+           
+        }
+    
+    
+    
+    
+        #btnMenu:checked ~ .ul {
+            margin-left: 0;
+        }
+    
+        
+    
+        .ul .conteiner-submenu {
+            width: 100%;
+            margin: 0px;
+            padding: 2px;
+        
+        }
+    
+    
+        .submenu-btn {
+            position: relative;
+        }
+    
+        .ul li i {
+            display: none;
+        }
+    
+        .submenu {
+            display: none;
+        }
+    
+        .mostrar {
+            transform: translateX(0);
+        }
+    
+        .menu img {
+            height: 80px;
+            float: center;
+        } 
+
+        .img_alumnos img {
+            height: 400px;
+            width: 80%;
+        }
+         
+
+        .circle {
+            height: 20px;
+            width: 20px;;
+        }
+
+        .line{
+            height: 25px;
+        }
+
+
+        /* imagen y texto */
+
+        .trabajo_alumnos {
+            padding: 0;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        
+        .trabajo_alumnos h2 {
+            padding-top: 20px;
+        }
+        
+        .trabajo_img {
+            padding: 0;
+            display: inline-block;
+          
+        }
+        
+        .trabajo_img li {
+            height: 250px;
+        
+        }
+        
+        .td2 {
+            display: none;
+        }
+
+
+    
+    }
+
+
+    @media  (max-width: 1280px) {
+
+       .lines::after, .lines::before  {
+        width: 37%;
+        top: 37%;
+       }
+
+       .img_alumnos img {
+           height: 600px;
+       }
+        
+       
+            
+         
+        
+
+    }
+
+    @media (max-width: 874px) {
+
+        .td2 {
+            display: none;
+        }
+
+        .lines::after, .lines::before  {
+            width: 30%;
+            top: 30%;
+           }
+
+
+        
+    }
+
+    @media (max-width: 630px) {
+
+        .lines h1  {
+            font-size: 30px;
+        }
+
+        .lines::after, .lines::before  {
+            width: 28%;
+            top: 28%;
+           }
+
+        .img_alumnos img {
+            height: 350px;
+        }
+         
+
+        
+    }

@@ -1,0 +1,569 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+
+/* HEADER */ 
+
+.header {
+	
+	width: 100%;
+	background-color: #0d0d0d;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: table;
+	
+	
+}
+
+.header-responsive {
+	display: none;
+	
+}
+
+.menu {
+	display: none;
+
+}
+
+.header img {
+	height: 150px;
+	margin: 10px;
+}
+
+.ul {
+	list-style: none;
+	margin: auto;
+	padding-bottom: 3px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#close {
+	display: none;
+}
+
+.ul li {
+	
+	padding: 0;
+	margin: 10px 20px 5px 20px;
+}
+
+.ul .conteiner-submenu {
+	width: 150px;
+    margin: 10px 0 5px 0;
+
+}
+
+
+.ul a {
+	text-decoration: none;
+	color: #f2edee;
+	font-size: 15px;
+	padding: 0;
+	cursor: pointer;
+	
+}
+
+
+
+
+
+
+.ul a:hover:not(.active) {
+	
+	color: #DBBD9C;
+
+}
+
+.fas  {
+	margin: auto;
+	font-size: 12px;
+	color: #DBBD9C;
+}
+
+
+.conteiner-submenu {
+	position: relative;
+   
+}
+
+
+
+.submenu {
+	background: rgba(49, 45, 45, 0.9);
+	opacity: 0;
+    padding: 5px 0;
+    margin: 0;
+    visibility: hidden;
+	overflow: visible;
+    transition: all 0.3s;
+	position: absolute;
+	top: 25px;
+	z-index: 1000;
+	list-style-type: none;
+}
+
+.conteiner-submenu:hover .submenu {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+/* Header Responsive */
+
+#btnMenu {
+	display: none;
+}
+
+
+/* CONTENT */
+
+.cursos {
+	
+	margin: auto;
+	text-align: center;
+}
+
+.cursos h1 {
+	font-size: 50px;
+    font-family: Minion Variable Concept ;
+    font-weight: lighter;
+	margin-top: 30px;
+	
+}
+
+.sep1 {
+	padding: 30px;
+	width: 100%;
+	margin: auto;
+	justify-content: center;
+	
+}
+
+.line1 {
+	height: 1px;
+	background: #d4cdc5;
+	margin: auto;
+	width: 50%;
+}
+
+/* CURSOS INFO */
+
+.curso_pelu {
+	width: 100%;
+	display: flex;
+	margin: 30px auto auto auto;
+	padding: 0;
+	
+	
+}
+
+.curso_pelu__ul {
+	display: flex;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+}
+
+.curso_pelu__li1 {
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+
+
+
+
+
+
+.curso_pelu__li1 img {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.curso_pelu__li2 {
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	line-height: 15px;
+	
+}
+
+.curso_pelu__li2 h1 {
+	border-bottom: 1px solid #d4cdc5;
+	padding: 15px;
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+}
+
+.curso_pelu__li2 h2 {
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+}
+
+.curso_pelu__li2 p {
+	font-size: 20px;
+}
+
+
+.curso_pelu__li2 a, .curso_maqui__li2 a, .curso_podo__li1 a, .curso_barbe__li2 a, .curso_mani__li1 a {
+	
+	font-weight: bold;
+	border: 2px solid #d4cdc5;
+	text-decoration: none;
+	padding: 8px;
+	color: black;
+}
+
+.curso_pelu__li2 a:hover, .curso_maqui__li2 a:hover, .curso_podo__li1 a:hover, .curso_barbe__li2 a:hover, .curso_mani__li1 a:hover {
+	background: rgb(43, 41, 41);
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+.curso_mani {
+	width: 100%;
+	display: flex;
+	margin: auto;
+	padding: 0;
+}
+
+.curso_mani__ul {
+	display: flex;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+}
+
+.curso_mani__li1 {
+	width: 50%;
+	height: 100%;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.curso_mani__li1 h1 {
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+	border-bottom: 1px solid #d4cdc5;
+	padding: 4px;
+}
+
+.curso_mani__li1 p {
+	font-size: 20px;
+}
+
+.curso_mani__li2 {
+	width: 50%;
+	position: relative;
+}
+
+
+
+
+
+.curso_mani__li2 img {
+	width: 100%;
+}
+
+.curso_maqui {
+	width: 100%;
+	display: flex;
+	margin: auto;
+	padding: 0;
+	
+	
+}
+
+.curso_maqui__ul {
+	display: flex;
+	list-style: none;
+	margin: 0 auto auto auto;
+	padding: 0;
+
+}
+
+.curso_maqui__li1 {
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+
+
+
+.curso_maqui__li1 img {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.curso_maqui__li2 {
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	line-height: 15px;
+}
+
+.curso_maqui__li2 h1 {
+	border-bottom: 1px solid #d4cdc5;
+	padding: 15px;
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+}
+
+.curso_maqui__li2 h2 {
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+}
+
+.curso_maqui__li2 p {
+	font-size: 20px;
+}
+
+
+.curso_podo {
+	width: 100%;
+	display: flex;
+	margin: auto;
+	padding: 0;
+}
+
+.curso_podo__ul {
+	display: flex;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+}
+
+.curso_podo__li1 {
+	width: 50%;
+	height: 100%;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.curso_podo__li1 h1 {
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+	border-bottom: 1px solid #d4cdc5;
+	padding: 4px;
+}
+
+.curso_podo__li1 p {
+	font-size: 20px;
+}
+
+.curso_podo__li2 {
+	width: 50%;
+	position: relative;
+}
+
+
+
+.curso_podo__li2 img {
+	width: 100%;
+}
+
+.curso_barbe {
+	width: 100%;
+	display: flex;
+	margin: auto;
+	padding: 0;
+	
+	
+}
+
+.curso_barbe__ul {
+	display: flex;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+
+}
+
+.curso_barbe__li1 {
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+
+
+
+.curso_barbe__li1 img {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.curso_barbe__li2 {
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.curso_barbe__li2 h1 {
+	border-bottom: 1px solid #d4cdc5;
+	padding: 4px;
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+}
+
+.curso_barbe__li2 h2 {
+	font-family: Minion Variable Concept;
+	font-weight: lighter;
+}
+
+.curso_barbe__li2 p {
+	font-size: 20px;
+}
+
+
+/* FOOTER */
+
+.footer {
+	background: #0d0d0d;
+	width: 100%;
+	height: 220px;
+	justify-content: center;
+	padding-top: 10px;
+	
+}
+
+
+.td {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	list-style: none;
+	padding: 0;
+	justify-content: center;
+}
+
+.td1 {
+	margin: 10px 30px 0 30px;
+	text-align: center;
+	line-height: 200%;
+	padding: 0;
+	height: 200px;
+	width: 300px;
+}
+
+.td1 a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+.td1 a:hover {
+	color: pink;
+}
+
+
+.td2{
+	text-align: center;
+	display: block;
+	line-height: 200%;
+	margin: 0 30px;
+	padding: 0;
+	width: 400px;
+}
+
+.td2 img {
+	height: 100px;
+}
+
+.td2 p {
+	font-size: 15px;
+	color: white;
+	
+}
+
+
+.td3 {
+	text-align: center;
+	line-height: 200%;
+	padding: 0;
+	width: 300px;
+	margin: 10px 30px;
+
+}
+
+.td3 a {
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+.td3 a:hover {
+	color: pink;
+}
+
+.redes {
+	border-top: 1px solid  #d3d8bf;
+	text-align: center;
+	display: block;
+	background: black;
+	padding: 6px 0 6px 0;
+	height: 40px;
+}
+
+.redes a i{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin: 0 5px;
+}
+
+.redes a i:hover {
+	color: pink;
+}
+
+
