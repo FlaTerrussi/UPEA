@@ -300,7 +300,7 @@ body {
 .cursos {
 	width: 100%;
 	text-align: center;
-	background-image:url(../images2/pexels-photoo1.jpg); 
+	background-color:rgba(49, 45, 45, 0.5); 
 	background-size: cover;
 	background-attachment: fixed;
 	justify-content: center;
