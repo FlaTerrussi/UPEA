@@ -306,7 +306,7 @@ body {
 	justify-content: center;
 	background-position: center center;
 	position: relative;
-	padding: 60px;
+
 	
 }
 
@@ -349,7 +349,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 50px 0;
+	margin-top: 50px;
 }
 
 
