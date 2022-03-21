@@ -235,3 +235,13 @@
 
         
     }
+
+     @media (max-width: 520px) {
+        .alma {
+            display: block;
+        }
+        
+        .alma_img img {
+            height: 150px;
+        }
+    }
