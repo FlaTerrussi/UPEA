@@ -196,7 +196,7 @@
 
 @media (max-width: 750px) {
     .lines::after, .lines::before {
-        width: 15%;
+        display: none; 
     }
 
 }
