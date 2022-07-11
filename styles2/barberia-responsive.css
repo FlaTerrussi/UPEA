@@ -156,13 +156,17 @@
             display: none;
         }
         
+         .lines::after, .lines::before {
+        display: none;
+
+        }
+        
     }
 
     @media (max-width: 610px) {
 
         .lines::after, .lines::before {
-        width: 25%;
-        top: 25%;
+        display: none;
 
         }
 
